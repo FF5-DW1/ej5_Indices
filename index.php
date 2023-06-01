@@ -15,13 +15,18 @@
   <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/locales-all.js"></script>
 
   <style>
-    /* Estilos para la navbar */
+    body {
+      background-image: url(img/Rect\ Light.svg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    } 
+
     .navbar {
-      background-color:  #2c3e50;
+      background-color: #2c3e50;
       margin-bottom: 50px;
     }
 
-    /* Estilos para los enlaces en la navbar */
+
     .navbar a {
       float: left;
       display: block;
@@ -31,19 +36,17 @@
       text-decoration: none;
     }
 
-    /* Estilos para el menú desplegable */
     .dropdown {
       margin-left: 28%;
       float: left;
       position: relative;
     }
 
-    /* Estilos para los selects en el menú desplegable */
+
     .dropdown select {
       display: none;
     }
 
-    /* Estilos para el botón del menú desplegable */
     .dropdown-btn {
       display: block;
       background-color: inherit;
@@ -53,7 +56,6 @@
       cursor: pointer;
     }
 
-    /* Estilos para el contenedor del menú desplegable */
     .dropdown-content {
       display: none;
       position: absolute;
@@ -63,7 +65,6 @@
       z-index: 1;
     }
 
-    /* Estilos para los enlaces en el menú desplegable */
     .dropdown-content a {
       color: black;
       z-index: 3;
@@ -72,13 +73,28 @@
       display: block;
     }
 
-    #btnGuardar{
+    #btnGuardar {
       background-color: #2c3e50;
     }
 
-    .container h1{
+    .container h1 {
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      color: #f2f2f2;
       text-align: center;
+      margin-bottom: 50px;
     }
+
+    #calendar{
+      background-color: #f9f9f9;
+      border-radius: 5px;
+      border:none;
+      padding: 20px;
+      color: #2c3e50;
+      text-transform: uppercase;
+    }
+    
+
+    
   </style>
 </head>
 
@@ -107,7 +123,7 @@
 
   <div class="container">
 
-    <h1>Calendario Indices</h1>
+    <h1>CALENDARIO INDICES</h1>
     <div class="col-md-8 offset-md-2 ">
 
       <div id='calendar'></div>
