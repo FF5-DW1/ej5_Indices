@@ -67,12 +67,12 @@ Ahora que hemos configurado el entorno y importado la base de datos, es hora de 
 
 ¡Felicidades! Has configurado y ejecutado el proyecto "ej5_Indices" de calendario en PHP utilizando Docker Compose y MySQL Workbench en tu entorno local.
 
-##Participantes del proyecto:
+## Participantes del proyecto:
 
--Gladys Guanin.
--Jose Cabanillas.
--Alejandro Calquin.
--Pablo Caballero.
+- Gladys Guanin.
+- Jose Cabanillas.
+- Alejandro Calquin.
+- Pablo Caballero.
 
 
 
